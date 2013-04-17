@@ -15,8 +15,8 @@ These are a few things you will want to customize:
 Usage
 ---------------
 
-1. Install [Yeoman][1]: `npm install -g yo`
+1. Install Yeoman: `npm install -g yo`
 2. Install the generator locally: `npm install -g generator-boilerplate`
 3. Run: `yo generator-boilerplate`
-4. Start using [Your generator][2]!
+4. Start using Boilerplate
 
