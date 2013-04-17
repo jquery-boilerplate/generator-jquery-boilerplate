@@ -1,0 +1,28 @@
+{
+  "name": "generator-boilerplate",
+  "version": "0.1.1",
+  "description": "Yeoman Generator for ...",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/addyosmani/generator-boilerplate.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": {
+    "name": "Addy Osmani",
+    "email": "addyosmani@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "license": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.10.2"
+  }
+}
