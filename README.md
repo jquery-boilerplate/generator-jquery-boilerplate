@@ -8,9 +8,9 @@ Getting started
 
 These are a few things you will want to customize:
 
-1. README.md: Anywhere you see -boilerplate should be customized with the name of the generator you are creating (e.g generator-bill)
-2. package.json: Customize the repository, author and dependencies.
-3. .gitmodules: Customize the submodule(s) you would like pulled down and copied when a new project is being created.
+1. git submodule add YOUR-REPO-ON-GITHUB app/templates
+2. README.md: Anywhere you see -boilerplate should be customized with the name of the generator you are creating (e.g generator-bill)
+3. package.json: Customize the repository, author and dependencies.
 
 Usage
 ---------------
