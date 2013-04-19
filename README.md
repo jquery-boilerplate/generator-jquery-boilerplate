@@ -8,7 +8,7 @@ Getting started
 
 These are a few things you will want to customize:
 
-1. git submodule add YOUR-REPO-ON-GITHUB app/templates
+1. `git submodule add YOUR-REPO-ON-GITHUB app/templates`
 2. README.md: Anywhere you see -boilerplate should be customized with the name of the generator you are creating (e.g generator-bill)
 3. package.json: Customize the repository, author and dependencies.
 
