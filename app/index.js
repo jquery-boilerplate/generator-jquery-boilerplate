@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 
 var Generator = module.exports = function() {
   var prompts = [];
@@ -9,7 +10,9 @@ var Generator = module.exports = function() {
     'README.md',
   ];
 
-  this.log.writeln('Generating from ' + 'Generator Boilerplate'.cyan + ' v' + package.version.cyan + '...');
+  this.package = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
+
+  this.log.writeln('Generating from ' + 'Generator Boilerplate'.cyan + ' v' + this.package.version.cyan + '...');
 
   files.forEach(function(file) {
     if (ignores.indexOf(file) !== -1) {
