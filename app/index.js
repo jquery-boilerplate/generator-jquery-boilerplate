@@ -1,7 +1,6 @@
 var fs = require('fs');
 
 var Generator = module.exports = function() {
-  var package = require(this.sourceRoot() + '/package.json');
   var prompts = [];
   var files   = this.expandFiles('**/*', { cwd: this.sourceRoot(), dot: true });
   var ignores = [

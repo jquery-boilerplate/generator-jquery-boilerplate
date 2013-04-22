@@ -9,10 +9,13 @@ Getting started
 These are a few things you will want to customize:
 
 1. `git submodule add YOUR-REPO-ON-GITHUB app/templates`
-2. README.md: Anywhere you see 'boilerplate' should be customized with the name of the generator you are creating (e.g generator-bill)
+2. README.md: Anywhere you see 'boilerplate' should be customized with the name of the generator you are creating (e.g generator-awesome)
 3. package.json: Customize the repository, author and dependencies.
 
-Usage
+You can then test out your generator without pushing to npm using `npm install -g` and
+`yo awesome` (where awesome is the name of your generator).
+
+Usage (for your end-users)
 ---------------
 
 1. Install Yeoman: `npm install -g yo`
