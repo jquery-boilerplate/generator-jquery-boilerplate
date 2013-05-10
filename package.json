@@ -15,14 +15,15 @@
 	],
 	"author": {
 		"name": "Zeno Rocha",
-		"email": "contato@zenorocha.com"
+		"email": "zno.rocha@gmail.com"
 	},
 	"engines": {
 		"node": ">=0.8.0"
 	},
 	"license": [
 		{
-			"type": "MIT"
+			"type": "MIT",
+			"url": "http://zenorocha.mit-license.org/"
 		}
 	],
 	"dependencies": {
