@@ -11,10 +11,15 @@ Maintainer: [Zeno Rocha](https://github.com/zenorocha)
 3. Run: `yo jquery`
 4. Start writing your jQuery plugin :)
 
+## Wanna know more?
+
+Check [jQuery Boilerplate's](http://github.com/jquery-boilerplate/boilerplate) repository.
+
 ## History
 
 * v0.0.1 May 10, 2013
-	* Clone @addyosmani's [Generator Boilerplate](https://github.com/addyosmani/generator-boilerplate)
+	* Published package on [NPM](https://npmjs.org/package/generator-jquery)
+	* Cloned Addy's [Generator Boilerplate](https://github.com/addyosmani/generator-boilerplate)
 
 ## License
 
