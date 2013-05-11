@@ -1,6 +1,6 @@
 {
 	"name": "generator-jquery",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "Yeoman Generator for jQuery Boilerplate",
 	"main": "app/index.js",
 	"repository": {
