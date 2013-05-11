@@ -26,6 +26,7 @@ describe('jQuery generator test', function () {
       '.travis.yml',
       'Gruntfile.js',
       'boilerplate.jquery.json',
+      'demo/index.html',
       'dist/jquery.boilerplate.js',
       'dist/jquery.boilerplate.min.js',
       'package.json',
