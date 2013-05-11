@@ -1,4 +1,4 @@
-# jQuery generator
+# jQuery generator [![Build Status](https://secure.travis-ci.org/zenorocha/generator-jquery.png?branch=master)](https://travis-ci.org/zenorocha/generator-jquery)
 
 > A Yeoman generator that provides a functional boilerplate to easily create jQuery plugins out of the box.
 
@@ -17,7 +17,9 @@ Check [jQuery Boilerplate's](http://github.com/jquery-boilerplate/boilerplate) r
 
 ## History
 
-* v0.0.1 May 10, 2013
+* v0.1.0 May 10, 2013
+	* Added continous integration using [Travis](https://travis-ci.org/)
+	* Added tests using [Mocha](http://visionmedia.github.io/mocha/)
 	* Published package on [NPM](https://npmjs.org/package/generator-jquery)
 	* Cloned Addy's [Generator Boilerplate](https://github.com/addyosmani/generator-boilerplate)
 
