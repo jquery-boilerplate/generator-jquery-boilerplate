@@ -1,4 +1,4 @@
-# jQuery generator [![Build Status](https://secure.travis-ci.org/zenorocha/generator-jquery.png?branch=master)](https://travis-ci.org/zenorocha/generator-jquery)
+# jQuery generator [![Build Status](https://secure.travis-ci.org/jquery-boilerplate/generator.png?branch=master)](https://travis-ci.org/jquery-boilerplate/generator)
 
 > A Yeoman generator that provides a functional boilerplate to easily create jQuery plugins out of the box.
 
@@ -25,4 +25,4 @@ Check [jQuery Boilerplate's](http://github.com/jquery-boilerplate/boilerplate) r
 
 ## License
 
-[MIT License](http://zenorocha.mit-license.org/)
+[MIT License](http://zenorocha.mit-license.org/) ©
