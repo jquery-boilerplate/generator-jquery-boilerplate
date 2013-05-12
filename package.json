@@ -1,17 +1,17 @@
 {
-	"name": "generator-jquery",
+	"name": "yeoman-jquery",
 	"version": "0.1.0",
-	"description": "Yeoman Generator for jQuery Boilerplate",
+	"description": "Yeoman Generator for jQuery Plugins",
 	"main": "app/index.js",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/jquery-boilerplate/generator.git"
+		"url": "git://github.com/jquery-boilerplate/yeoman-generator.git"
 	},
 	"keywords": [
 		"jquery",
-		"jquery-boilerplate",
+		"yeoman",
 		"jquery-plugins",
-		"yeoman-jquery"
+		"jquery-boilerplate"
 	],
 	"author": {
 		"name": "Zeno Rocha",

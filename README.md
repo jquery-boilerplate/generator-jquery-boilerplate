@@ -1,4 +1,4 @@
-# jQuery generator [![Build Status](https://secure.travis-ci.org/jquery-boilerplate/generator.png?branch=master)](https://travis-ci.org/jquery-boilerplate/generator)
+# Yeoman Generator for jQuery Plugins [![Build Status](https://secure.travis-ci.org/jquery-boilerplate/yeoman-generator.png?branch=master)](https://travis-ci.org/jquery-boilerplate/yeoman-generator)
 
 > A Yeoman generator that provides a functional boilerplate to easily create jQuery plugins out of the box.
 
@@ -7,7 +7,7 @@ Maintainer: [Zeno Rocha](https://github.com/zenorocha)
 ## Usage
 
 1. Install [Yeoman](https://github.com/yeoman/yo): `[sudo] npm install -g yo`
-2. Install the generator: `[sudo] npm install -g generator-jquery`
+2. Install the generator: `[sudo] npm install -g yeoman-jquery`
 3. Run: `yo jquery`
 4. Start writing your jQuery plugin :)
 
