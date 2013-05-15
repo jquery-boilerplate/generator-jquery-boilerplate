@@ -21,7 +21,7 @@ var Generator = module.exports = function() {
 
   this.package = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
 
-  this.log.writeln('Generating from ' + 'Generator jQuery'.cyan + ' v' + this.package.version.cyan + '...');
+  this.log.writeln('Generating from ' + 'jQuery Boilerplate'.cyan + ' v' + this.package.version.cyan + '...');
 
   files.forEach(function(file) {
     if (ignores.indexOf(file) !== -1) {
@@ -32,4 +32,4 @@ var Generator = module.exports = function() {
   }, this);
 };
 
-Generator.name = "Generator jQuery";
+Generator.name = "jQuery Boilerplate";
