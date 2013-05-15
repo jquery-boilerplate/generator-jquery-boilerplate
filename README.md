@@ -4,8 +4,8 @@
 
 ## Usage
 
-1. Install [Yeoman](https://github.com/yeoman/yo): `[sudo] npm install -g yo`
-2. Install this generator: `[sudo] npm install -g generator-jquery-boilerplate`
+1. Install [Yeoman](https://github.com/yeoman/yo): `npm install -g yo`
+2. Install this generator: `npm install -g generator-jquery-boilerplate`
 3. Run: `yo jquery-boilerplate`
 4. Start writing your jQuery plugin :)
 
