@@ -1,4 +1,4 @@
-# Yeoman Generator for jQuery Boilerplate [![Build Status](https://secure.travis-ci.org/jquery-boilerplate/generator.png?branch=master)](https://travis-ci.org/jquery-boilerplate/generator)
+# Yeoman Generator for jQuery Boilerplate [![Build Status](https://secure.travis-ci.org/jquery-boilerplate/generator-jquery-boilerplate.png?branch=master)](https://travis-ci.org/jquery-boilerplate/generator-jquery-boilerplate)
 
 > A Yeoman generator that provides a functional boilerplate to easily create jQuery plugins out of the box.
 
