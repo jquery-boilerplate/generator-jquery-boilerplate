@@ -10,15 +10,6 @@ var Generator = module.exports = function() {
     'README.md',
   ];
 
-  this.argument('tarFile');
-  if (this.tarFile) {
-    this.tarball(this.tarFile, process.cwd(), function (err) {
-      if (err) {
-        throw err;
-      }
-    });
-  }
-
   this.package = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
 
   this.log.writeln('Generating from ' + 'jQuery Boilerplate'.cyan + ' v' + this.package.version.cyan + '...');
