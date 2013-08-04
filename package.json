@@ -27,8 +27,12 @@
 	"scripts": {
 		"test": "mocha --reporter spec"
 	},
+	"peerDependencies": {
+	    "yo": ">=1.0.0-rc.1.1"
+	},
 	"engines": {
-		"node": ">=0.8.0"
+	    "node": ">= 0.8.0",
+	    "npm": ">=1.2.10"
 	},
 	"dependencies": {
 		"yeoman-generator": "~0.10.2"
