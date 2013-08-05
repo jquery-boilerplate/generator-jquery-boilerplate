@@ -14,6 +14,8 @@ Check [jQuery Boilerplate's](http://github.com/jquery-boilerplate/boilerplate) r
 
 ## History
 
+* v0.1.1 August 5, 2013
+	* Moving to peerDeps
 * v0.1.0 May 10, 2013
 	* Added continous integration using [Travis](https://travis-ci.org/jquery-boilerplate/generator/)
 	* Added tests using [Mocha](http://visionmedia.github.io/mocha/)
