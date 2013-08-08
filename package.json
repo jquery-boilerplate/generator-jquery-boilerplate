@@ -20,24 +20,25 @@
 	},
 	"license": [
 		{
-			"type": "MIT",
-			"url": "http://zenorocha.mit-license.org/"
-		}
+		"type": "MIT",
+		"url": "http://zenorocha.mit-license.org/"
+	}
 	],
 	"scripts": {
 		"test": "mocha --reporter spec"
 	},
 	"peerDependencies": {
-	    "yo": ">=1.0.0-rc.1.1"
+		"yo": ">=1.0.0-rc.1.1"
 	},
 	"engines": {
-	    "node": ">= 0.8.0",
-	    "npm": ">=1.2.10"
+		"node": ">= 0.8.0",
+		"npm": ">=1.2.10"
 	},
 	"dependencies": {
-		"yeoman-generator": "~0.10.2"
+		"yeoman-generator": "~0.12.0",
+		"chalk": "~0.2.0"
 	},
 	"devDependencies": {
-		"mocha": "~1.9.0"
+		"mocha": "~1.12.0"
 	}
 }
