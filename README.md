@@ -14,15 +14,7 @@ Check [jQuery Boilerplate's](http://github.com/jquery-boilerplate/boilerplate) r
 
 ## History
 
-* v0.1.2 August 8, 2013
-	* Upgraded to yeoman-generator 0.12
-* v0.1.1 August 5, 2013
-	* Moving to peerDeps
-* v0.1.0 May 10, 2013
-	* Added continous integration using [Travis](https://travis-ci.org/jquery-boilerplate/generator/)
-	* Added tests using [Mocha](http://visionmedia.github.io/mocha/)
-	* Published package on [NPM](https://npmjs.org/package/generator-jquery-boilerplate)
-	* Cloned Addy's [Generator Boilerplate](https://github.com/addyosmani/generator-boilerplate)
+Check [Release](https://github.com/jquery-boilerplate/generator-jquery-boilerplate/releases) list.
 
 ## License
 
