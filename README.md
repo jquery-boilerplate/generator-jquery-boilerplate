@@ -14,8 +14,8 @@ Check [jQuery Boilerplate's](http://github.com/jquery-boilerplate/boilerplate) r
 
 ## History
 
-Check [Release](https://github.com/jquery-boilerplate/generator-jquery-boilerplate/releases) list.
+Check [Releases](https://github.com/jquery-boilerplate/generator-jquery-boilerplate/releases) for detailed changelog.
 
 ## License
 
-[MIT License](http://zenorocha.mit-license.org/)
+[MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha
