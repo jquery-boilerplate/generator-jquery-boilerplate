@@ -35,10 +35,10 @@
 		"npm": ">=1.2.10"
 	},
 	"dependencies": {
-		"yeoman-generator": "~0.12.0",
-		"chalk": "~0.2.0"
+		"yeoman-generator": "~0.18.0",
+		"chalk": "~0.5.1"
 	},
 	"devDependencies": {
-		"mocha": "~1.12.0"
+		"mocha": "~2.0.1"
 	}
 }
