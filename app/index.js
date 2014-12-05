@@ -22,6 +22,8 @@ var Generator = module.exports = function() {
 
     this.copy(file, file);
   }, this);
+
+  this.config.save();
 };
 
 Generator.name = "jQuery Boilerplate";
