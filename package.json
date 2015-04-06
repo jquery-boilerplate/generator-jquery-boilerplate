@@ -1,43 +1,43 @@
 {
-	"name": "generator-jquery-boilerplate",
-	"version": "0.1.2",
-	"description": "Yeoman Generator for jQuery Boilerplate",
-	"main": "app/index.js",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/jquery-boilerplate/generator-jquery-boilerplate.git"
-	},
-	"keywords": [
-		"yeoman-generator",
-		"jquery-boilerplate",
-		"jquery-plugins",
-		"jquery",
-		"yeoman"
-	],
-	"engines": {
-		"node": ">= 0.10.0"
-	},
-	"author": {
-		"name": "Zeno Rocha",
-		"email": "zno.rocha@gmail.com"
-	},
-	"license": [
-		{
-		"type": "MIT",
-		"url": "http://zenorocha.mit-license.org/"
-	}
-	],
-	"scripts": {
-		"test": "mocha --reporter spec"
-	},
-	"peerDependencies": {
-		"yo": ">=1.0.0-rc.1.1"
-	},
-	"dependencies": {
-		"yeoman-generator": "~0.18.10",
-		"chalk": "~0.5.1"
-	},
-	"devDependencies": {
-		"mocha": "~2.0.1"
-	}
+  "name": "generator-jquery-boilerplate",
+  "version": "0.2.0",
+  "description": "Yeoman Generator for jQuery Boilerplate",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jquery-boilerplate/generator-jquery-boilerplate.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "jquery-boilerplate",
+    "jquery-plugins",
+    "jquery",
+    "yeoman"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": {
+    "name": "Zeno Rocha",
+    "email": "zno.rocha@gmail.com"
+  },
+  "license": [
+    {
+      "type": "MIT",
+      "url": "http://zenorocha.mit-license.org/"
+    }
+  ],
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0-rc.1.1"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.18.10",
+    "chalk": "~0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.0.1"
+  }
 }
