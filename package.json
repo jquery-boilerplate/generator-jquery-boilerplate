@@ -14,6 +14,9 @@
 		"jquery",
 		"yeoman"
 	],
+	"engines": {
+		"node": ">= 0.10.0"
+	},
 	"author": {
 		"name": "Zeno Rocha",
 		"email": "zno.rocha@gmail.com"
