@@ -1,29 +1,42 @@
 var fs = require('fs');
 var path = require('path');
 var chalk = require('chalk');
+var yeoman = require('yeoman-generator');
+var util = require('util');
 
-var Generator = module.exports = function() {
-  var prompts = [];
-  var files   = this.expandFiles('**/*', { cwd: this.sourceRoot(), dot: true });
-  var ignores = [
-    '.git',
-    'LICENSE',
-    'README.md',
-  ];
+module.exports = yeoman.generators.Base.extend({
 
-  this.package = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
+	constructor: function () {
+		yeoman.generators.Base.apply(this, arguments);
 
-  this.log.writeln('Generating from ' + chalk.cyan('jQuery Boilerplate') + ' v' + chalk.cyan(this.package.version) + '...');
+	},
 
-  files.forEach(function(file) {
-    if (ignores.indexOf(file) !== -1) {
-      return;
-    }
+	install: function () {
+		var prompts = [];
 
-    this.copy(file, file);
-  }, this);
+	  this.name = "jQuery Boilerplate";
 
-  this.config.save();
-};
+	  this.files = this.expandFiles('**/*', { cwd: this.sourceRoot(), dot: true });
 
-Generator.name = "jQuery Boilerplate";
+	  var ignores = [
+	    '.git',
+	    'LICENSE',
+	    'README.md',
+	  ];
+
+		this.files.forEach(function(file) {
+	    if (ignores.indexOf(file) !== -1) {
+	      return;
+	    }
+
+	    this.copy(file, file);
+	  }, this);
+
+		this.config.save();
+
+	  this.package = JSON.parse(this.readFileAsString(path.resolve(__dirname, '../package.json')));
+
+	  this.log.writeln('Generating from ' + chalk.cyan('jQuery Boilerplate') + ' v' + chalk.cyan(this.package.version) + '...');
+	}
+
+});
