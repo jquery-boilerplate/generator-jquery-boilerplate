@@ -14,29 +14,29 @@ module.exports = yeoman.generators.Base.extend({
 	install: function () {
 		var prompts = [];
 
-	  this.name = "jQuery Boilerplate";
+		this.name = 'jQuery Boilerplate';
 
-	  this.files = this.expandFiles('**/*', { cwd: this.sourceRoot(), dot: true });
+		this.files = this.expandFiles('**/*', { cwd: this.sourceRoot(), dot: true });
 
-	  var ignores = [
-	    '.git',
-	    'LICENSE',
-	    'README.md',
-	  ];
+		var ignores = [
+			'.git',
+			'LICENSE',
+			'README.md',
+		];
 
 		this.files.forEach(function(file) {
-	    if (ignores.indexOf(file) !== -1) {
-	      return;
-	    }
+			if (ignores.indexOf(file) !== -1) {
+				return;
+			}
 
-	    this.copy(file, file);
-	  }, this);
+			this.copy(file, file);
+		}, this);
 
 		this.config.save();
 
-	  this.package = JSON.parse(this.readFileAsString(path.resolve(__dirname, '../package.json')));
+		this.package = JSON.parse(this.readFileAsString(path.resolve(__dirname, '../package.json')));
 
-	  this.log.writeln('Generating from ' + chalk.cyan('jQuery Boilerplate') + ' v' + chalk.cyan(this.package.version) + '...');
+		this.log.writeln('Generating from ' + chalk.cyan('jQuery Boilerplate') + ' v' + chalk.cyan(this.package.version) + '...');
 	}
 
 });
