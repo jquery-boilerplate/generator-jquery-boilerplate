@@ -34,8 +34,9 @@
     "yo": ">=1.0.0-rc.1.1"
   },
   "dependencies": {
-    "yeoman-generator": "~0.18.10",
-    "chalk": "~0.5.1"
+    "chalk": "~0.5.1",
+    "jquery-boilerplate": "jquery-boilerplate/jquery-boilerplate",
+    "yeoman-generator": "~0.18.10"
   },
   "devDependencies": {
     "mocha": "~2.0.1"

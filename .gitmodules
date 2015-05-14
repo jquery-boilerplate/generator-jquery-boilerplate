@@ -1,3 +1,0 @@
-[submodule "app/templates"]
-	path = app/templates
-	url = git://github.com/jquery-boilerplate/boilerplate.git

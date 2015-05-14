@@ -16,7 +16,7 @@ module.exports = yeoman.generators.Base.extend({
 
 		this.name = 'jQuery Boilerplate';
 
-		this.files = this.expandFiles('**/*', { cwd: this.sourceRoot(), dot: true });
+		this.files = this.expandFiles('**/*', { cwd: this.sourceRoot(path.resolve(__dirname, '../node_modules/jquery-boilerplate')), dot: true });
 
 		var ignores = [
 			'.git',

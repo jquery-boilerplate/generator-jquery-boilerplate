@@ -24,11 +24,9 @@ describe('jQuery Boilerplate generator test', function () {
 	it('creates expected files', function (done) {
 		var expected = [
 			'.editorconfig',
-			'.gitignore',
 			'.jshintrc',
 			'.travis.yml',
 			'Gruntfile.js',
-			'boilerplate.jquery.json',
 			'demo/index.html',
 			'dist/jquery.boilerplate.js',
 			'dist/jquery.boilerplate.min.js',
