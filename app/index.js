@@ -12,8 +12,6 @@ module.exports = yeoman.generators.Base.extend({
 	},
 
 	install: function () {
-		var prompts = [];
-
 		this.name = 'jQuery Boilerplate';
 
 		this.files = this.expandFiles('**/*', { cwd: this.sourceRoot(path.resolve(__dirname, '../node_modules/jquery-boilerplate')), dot: true });
