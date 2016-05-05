@@ -21,12 +21,7 @@
     "name": "Zeno Rocha",
     "email": "zno.rocha@gmail.com"
   },
-  "license": [
-    {
-      "type": "MIT",
-      "url": "http://zenorocha.mit-license.org/"
-    }
-  ],
+  "license": "MIT",
   "scripts": {
     "test": "mocha --reporter spec"
   },
